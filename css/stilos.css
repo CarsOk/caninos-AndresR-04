@@ -1,0 +1,180 @@
+body{
+      background-image: url("../img/nav.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+#contenedor{
+		margin: auto;
+		width: 629px;
+		height: 700px;
+    background-image: url("../img/fondolu.jpg");
+    border-radius: 5px;
+
+}
+
+header{
+  background-image: url("../img/fondolu.jpg");
+	color: #F7F7F7;
+	padding: 15px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: 'Roboto Slab', serif;
+  border-style: inset;
+  border-color: #664400;
+  text-align: center;
+  top: 90px;
+  width: 594px;
+  margin:auto;
+  }
+
+nav {
+  background-image: url("../img/fondolu.jpg");
+  border-radius: 10px;
+	padding: 3px;
+	text-align: center;
+  top: 70px;
+  width: 620px;
+  margin:auto;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 10px 0 10px;
+}
+
+nav ul li a {
+  background: rgba(0, 102, 204, 0.5);
+  border-radius: 5px;
+	color: #FFF;
+	font-family: 'Roboto Slab', serif;
+	text-decoration: none;
+}
+
+main{
+  height: 150px;
+  top: 70px;
+  border:3px solid red;
+}
+
+section{
+  float:left;
+  height: 200px;
+  background: rgba(0, 102, 204, 0.5);
+  border-style: inset;
+  border-color: black;
+  margin-left: auto;
+  display: block;
+  position: relative;
+  top: 1px;
+  border-radius: 15px;
+  width: 400px;
+  color: white;
+}
+
+#section2{
+  float:right;
+  height: 410px;
+  background: rgba(0, 102, 204, 0.7);
+  border-style: inset;
+  border-color: black;
+  margin-left: auto;
+  display: block;
+  position: relative;
+  top: 1px;
+  border-radius: 15px;
+  width: 200px;
+
+
+}
+
+#section2 a {
+  color: white;
+}
+
+
+#section3{
+  float:left;
+  height: 200px;
+  background: rgba(0, 102, 204, 0.5);
+  border-style: inset;
+  border-color: black;
+  margin-left: auto;
+  display: block;
+  position: relative;
+  top: 1px;
+  border-radius: 15px;
+  width: 400px;
+  color: white;
+
+}
+
+p{
+  margin-top: 10px;
+  margin: auto;
+  width: 90%;
+}
+
+.datos{
+  border-radius: 15px;
+  margin: auto;
+  width: 199px;
+  height: 410.3px;
+  border: 1px solid blue;
+  background:rgba(49, 99, 209, 0.5) ;
+  float: right;
+}
+
+.labels, .inputs {
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 90%;
+  height: 25px;
+}
+.inputs{
+  border-radius: 5px;
+}
+.labels{
+  margin-top: 25px;
+  color: white;
+  font-size: 15px;
+}
+
+.pedircita{
+  margin-left: 30%;
+  margin-top: 1%;
+  width: 40%;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background: rgba(0,0,0,0.7);
+  cursor: pointer;
+  border: 1px solid blue;
+}
+
+.imge{
+  margin-left: 280px;
+  border-style: inset;
+  border-color: white;
+  border-radius: 5px;
+
+}
+
+.foo{
+  border: 1px solid blue;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  top: 65px;
+  bottom: 400px;
+  width: 99.8%;
+  height: 30px;
+  clear: both;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.foo p{
+  margin: auto;
+  text-align: center;
+  margin-top: 8px;
+  color: white;
+}
